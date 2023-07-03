@@ -1,0 +1,29 @@
+{
+  "name": "playwrightautomationwithts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "test": "cross-env test_env=test npx playwright test --grep @e2e",
+    "prod": "cross-env test_env=prod npx playwright test",
+    "beta": "cross-env test_env=beta npx playwright test",
+    "stage": "cross-env test_env=stage npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@playwright/test": "^1.32.3",
+    "allure-commandline": "^2.21.0",
+    "allure-playwright": "^2.2.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3",
+    "jest-extended": "^3.2.4",
+    "playwright-expect": "^0.1.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}

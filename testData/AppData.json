@@ -1,0 +1,31 @@
+{
+    "urls":
+ {
+    "qa" : "https://test.fitnessbi.com/home",
+    "stg" : "https://v2.fitnessbi.com/home",
+    "prod" : "https://app.fitnessbi.com/home"
+},
+
+"users": [
+
+    {
+        "env": "qa",
+        "username": "jeevan.reddymaru@abcfitness.com",
+        "password": "Hello123!"
+    },
+
+    {
+        "env": "stg",
+        "username": "jeevan.reddymaru@abcfitness.com",
+        "password": "Hello123!"
+    },
+
+    {
+        "env": "prod",
+        "username": "jeevan.reddymaru@abcfitness.com",
+        "password": "Hello123!"
+    }
+
+]
+
+}

@@ -1,0 +1,10 @@
+{ 
+    "validate_workspace": "Forma",
+    "title": "ABC Fitness",
+    "Invalid_password_message" : "Wrong e-mail",
+    "Validate_Homepage_url" : "https://test.fitnessbi.com/home",
+    "username" : "QAUsercorp58",
+    "EditUsername": "Cycletestthree",
+     "deleteusername": "Cycletesttwo"
+
+}
